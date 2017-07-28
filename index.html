@@ -2,22 +2,25 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="node_modules/dragula/dist/dragula.min.css" type="text/css" />
-    <link rel="stylesheet" href="node_modules/dragula/example/example.css" type="text/css" />
+    <link rel="stylesheet" href="resources/dragula/dist/dragula.min.css" type="text/css" />
+    <link rel="stylesheet" href="resources/style.css" type="text/css" />
 </head>
 
 <body>
     <div class='parent'>
-        <label for='hy'>Copying stuff from only one of the containers and sorting on the other one? No problem!</label>
-        <div class='wrapper'>
-            <div id='left-copy-1tomany' class='container'>
-            </div>
-            <div id='right-copy-1tomany' class='container'>
-            </div>
+        <label for="">Source ( Drag and drop to `Target` )</label>
+        <div id='source' class='container'>
         </div>
+        <label for="">Target ( Drag outside to remove element)</label>
+        <div id='target' class='container container-target'>
+        </div>
+        <label for="">Result ( conversion pattern )</label>
+        <input type="textarea" id="result" class='container container-result'/> 
+        <label for="">Preview</label>
+        <input type="textarea" id="preview" class='container container-result'/> 
     </div>
-    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src='node_modules/dragula/dist/dragula.min.js'></script>
+    <script type="text/javascript" src="resources/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src='resources/dragula/dist/dragula.min.js'></script>
     <script type="text/javascript" src="resources/main.js"></script>
 </body>
 

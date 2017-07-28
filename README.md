@@ -1,5 +1,5 @@
 # log4j-helper
-An easier log4j PatternLayout designer
+simple log4j PatternLayout designer
 - simple page with dragula, jquery
 - no modern frameworks
 
