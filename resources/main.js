@@ -8,7 +8,7 @@ var data = [
             { "desc": "Line number", "value": "%L", "result": "number", "warning": "extremely slow" },
             { "desc": "Message", "value": "%m", "result": "log message" },
             { "desc": "Method name", "value": "%M", "result": "methodName", "warning": "extremely slow" },
-            { "desc": "Line seperator", "value": "%n", "result": "\n or \r\n" },
+            { "desc": "Line seperator", "value": "%n", "result": "" },
             { "desc": "Priority", "value": "%p", "result": "DEBUG" },
             { "desc": "Milliseconds elapsed", "value": "%r", "result": "number" },
             { "desc": "Thread name", "value": "%t", "result": "thread-name" },
