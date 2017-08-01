@@ -15,11 +15,12 @@ input {
   background-color: #ecf0f1;
   color: #942A57;
   border: 0;
+  height: 20px;
 }
 
 .parent {
     margin: 20px 0;
-    padding: 20px;
+    /*padding: 20px;*/
     height: 500px;
     min-height: 500px;
 }
@@ -30,7 +31,7 @@ input {
     background-color: rgba(181, 146, 146, 0.5);
     margin: 10px;
     vertical-align: top;
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 .container-target {

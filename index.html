@@ -2,24 +2,38 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="resources/dragula/dist/dragula.min.css" type="text/css" />
     <link rel="stylesheet" href="resources/style.css" type="text/css" />
 </head>
 
 <body>
-    <div class='parent'>
-        <label for="">Source ( Drag and drop to `Target` )</label>
-        <div id='source' class='container'>
+    <ul id="logTabs" class="nav nav-pills">
+        <li role="presentation" class="active"><a href="#log4j">Log4j</a></li>
+        <li role="presentation"><a href="#log4j2">Log4j2</a></li>
+    </ul>
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="log4j">
+            <div class='parent'>
+                <label for="">Source ( Drag and drop to `Target` )</label>
+                <div id='source' class='container'>
+                </div>
+                <label for="">Target ( Drag outside to remove element)</label>
+                <div id='target' class='container container-target'>
+                </div>
+                <label for="">Result ( conversion pattern )</label>
+                <input type="textarea" id="result" class='container container-result' />
+                <label for="">Preview</label>
+                <input type="textarea" id="preview" class='container container-result' />
+            </div>
         </div>
-        <label for="">Target ( Drag outside to remove element)</label>
-        <div id='target' class='container container-target'>
+        <div role="tabpanel" class="tab-pane fade" id="log4j2">
+            <div>
+            </div>
         </div>
-        <label for="">Result ( conversion pattern )</label>
-        <input type="textarea" id="result" class='container container-result'/> 
-        <label for="">Preview</label>
-        <input type="textarea" id="preview" class='container container-result'/> 
     </div>
     <script type="text/javascript" src="resources/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src='resources/dragula/dist/dragula.min.js'></script>
     <script type="text/javascript" src="resources/main.js"></script>
 </body>

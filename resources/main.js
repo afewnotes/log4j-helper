@@ -21,6 +21,11 @@ function _$ (id) {
 }
 
 $(document).ready(function () {
+    $('#logTabs a').click(function (e) {
+      e.preventDefault()
+      $(this).tab('show')
+    });
+  
     var eles = "";
     for (var i = 0; i < data.length; i++) {
         eles += "<div value='" + data[i].value + "' result='" + data[i].result+ "'>" + data[i].desc + "</div>";
