@@ -1,6 +1,6 @@
 # log4j-helper
 simple log4j PatternLayout designer
-- simple page with dragula, jquery
+- simple page with dragula, jquery, bootstrap
 - no modern frameworks
 
 > log4j* official documents
